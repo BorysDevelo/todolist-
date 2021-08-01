@@ -15,33 +15,38 @@
         <h1 class="title">Todolist</h1>
         <div class="app">
           <div class="addnewtask">
-            <input type="text" id="ino" size="70" name="task" />
-            <button type="button" class="btn btn-add">Add new task</button>
+            <input
+              type="text"
+              id="ino"
+              size="70"
+              name="task"
+              placeholder="И восстали машины... и устали люди... :)"
+            />
+            <button type="button" class="btn btn-add">+</button>
           </div>
           <div class="task-list">
             <label class="label-decor">
-              Make America great again
-              <input type="checkbox" />
-              <span></span>
-            </label>
-            <label class="label-decor">
               Make Ukraine great again
               <input type="checkbox" />
-              <span></span>
+              <button class="label-decor__btn"></button>
+              <button class="label-decor__btn2"></button>
             </label>
-            <label class="label-decor">
-              Make Australia great again
-              <input type="checkbox" />
-              <span></span>
+
+            <label class="label-decor ldc">
+              Make America great again
+              <input type="checkbox" checked />
+              <button class="label-decor__btn"></button>
+              <button class="label-decor__btn2"></button>
             </label>
             <div class="finished-tasks"></div>
           </div>
           <div class="task-done">
             <div class="progressive-bar">
-              <div class="progressive-bar2">1 of 2</div>
-              tasks done
+              <div class="progressive-bar2">
+                <span><b>1</b> of <b>2</b> tasks done</span>
+              </div>
             </div>
-            <button class="btn-two">remove checked</button>
+            <button class="btn-two">Remove checked</button>
           </div>
         </div>
       </div>
