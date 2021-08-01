@@ -191,6 +191,10 @@ input {
   color: rgb(153, 153, 153);
 }
 
+.label-decor__btn:hover {
+  background-color: blue;
+}
+
 .label-decor__btn2 {
   position: absolute;
   font-family: "icomoon";
@@ -212,6 +216,10 @@ input {
   width: 25px;
   height: 25px;
   color: rgb(153, 153, 153);
+}
+
+.label-decor__btn2:hover {
+  background-color: rgb(18, 179, 66);
 }
 
 .label-decor input[type="checkbox"] {
